@@ -1,4 +1,8 @@
 Provided addresses and drivers, this module maps drivers to addresses based on the Suitability score
+
+check out repo
 append the dir containing map.py to the env variable PYTHONPATH
-Run map.py from commandline as below
+navigate to repo's root dir
+Run map.py from commandline as below 
 usage: map.py [-h] --address-file ADDR_FILE --driver-file DRV_FILE
+python .\src\map.py --address-file tests\addresses.txt --driver-file tests\drivers.txt
